@@ -1,0 +1,19 @@
+How to use:
+
+Database Setup:
+1, Create mysql database
+
+2, Import paypal.sql file to database
+
+3, DBC configuration in settings.php
+
+PayPal Setup:
+1, Make the PayPal App
+Make the Rest API App in: https://developer.paypal.com/
+
+2, PayPal API configuration in settings.php
+Open up settings.php and fill configuration viable with your paypal api live or sandbox cliendid and clientsecret code.
+
+Demo:
+Load the index.php, click the start payment and test with sandbox account.
+
